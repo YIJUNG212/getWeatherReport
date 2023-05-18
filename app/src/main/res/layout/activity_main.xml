@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#af2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_weight="50"
+            android:text="請選擇城巿"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="#505"
+            ></TextView>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_weight="50"
+            android:background="#00f"
+
+
+
+            >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_gravity="center">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="台北"
+                   android:textColor="#fff"
+                   android:textSize="24sp"
+                   android:layout_gravity="center"
+                   android:id="@+id/textView_Taipei"></TextView>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="桃園"
+                   android:textColor="#fff"
+                   android:textSize="24sp"
+                   android:layout_gravity="center"
+                   android:id="@+id/textView_Taoyuan"></TextView>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="新竹"
+                   android:textColor="#fff"
+                   android:textSize="24sp"
+                   android:layout_gravity="center"
+                   android:id="@+id/textView_Hsinchu"></TextView>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="台中"
+                   android:textColor="#fff"
+                   android:textSize="24sp"
+                   android:layout_gravity="center"
+                   android:id="@+id/textView_Taichun"></TextView>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="台南"
+                   android:textColor="#fff"
+                   android:textSize="24sp"
+                   android:layout_gravity="center"
+                   android:id="@+id/textView_Tainan"></TextView>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="高雄"
+                   android:textColor="#fff"
+                   android:textSize="24sp"
+                   android:layout_gravity="center"
+                   android:id="@+id/textView_Kaohsiung"></TextView>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="屏東"
+                   android:textColor="#fff"
+                   android:textSize="24sp"
+                   android:layout_gravity="center"
+                   android:id="@+id/textView_Pingtong"></TextView>
+           </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#330"
+        android:id="@+id/weather_info"/>
+
+</LinearLayout>
